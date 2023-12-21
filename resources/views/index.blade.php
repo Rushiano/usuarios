@@ -4,7 +4,7 @@
 @section('content')
     <h1>Cadastro de Usuários</h1>
     <div id="responseMessage"></div>
-    <form method="post" action="{{ url('/api/register') }}" class="mt-4" id="userForm">
+    <form method="post" action="{{ url('/api/store') }}" class="mt-4" id="userForm">
         @csrf
 
         <div class="mb-3">
